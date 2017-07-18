@@ -4,3 +4,7 @@ def sign_in
   fill_in 'player2', with: 'Henry'
   click_on 'Submit'
 end
+
+def attack
+  click_on 'Attack!'
+end
